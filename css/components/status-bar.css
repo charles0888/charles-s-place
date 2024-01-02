@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
-    position: fixed;
-    width: 99%;
+    position: static; /*position:fixed 로 바꾸기 나중에*/
+    width: 98%;
     top: 0px;
 }
 .status-bar__column{
