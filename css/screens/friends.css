@@ -13,3 +13,21 @@
 .friends-screen{
     padding: 0px var(--horizonal-space);
 }
+.friends-screen__cheannel{
+    margin-top:25px ;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+}
+.friends-screen__cheannel-header{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.friends-screen__cheannel-header i{
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+.user-component__column:last-child{
+    color: rgba(0, 0, 0, 0.5);
+}
