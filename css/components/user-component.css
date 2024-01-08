@@ -35,3 +35,14 @@
 .user-component__title-not-bold{
     font-weight: 400;
 }
+.user-component__column__time{
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+}
+.user-component__column:last-child{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
