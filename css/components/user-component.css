@@ -46,3 +46,20 @@
     align-items: flex-end;
     flex-direction: column;
 }
+.screen-header__icons__gear__dot{
+    position: absolute;
+    background-color: tomato;
+    width: 8px;
+    height: 7px;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    top: -6px;
+    right: -8px;
+}
+.screen-header__icons__relative{
+    position: relative;
+}
