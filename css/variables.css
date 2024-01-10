@@ -1,5 +1,6 @@
 :root{
     --yello: #fae100;
     --horizonal-space: 25px;
+    --main-border: 2px solid rgba(0, 0, 0, 0.1);
 }
 /* 변수(var) --horizonal-space 생김 */

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 25px 25px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: var(--main-border);
 }
 .find-icons__icon{
     display: flex;
@@ -13,4 +13,21 @@
 .find-icons__icon__text{
     font-weight: 600;
     padding-top: 30px;
+}
+
+.recommended-Friends{
+    padding: 0px 23px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.recommended-Friends__title{
+    color: rgba(0, 0, 0, 0.5);
+}
+.recommended-Friends__flex{
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
+    border-bottom: var(--main-border);
+}
+.recommended-Friends__center{
+    font-size: 18px;
 }
