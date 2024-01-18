@@ -14,12 +14,12 @@
     margin-right: 20px;
 }
 .user-component__title{
-    font-weight: 700;
+    font-weight: 1000;
     font-size: 18px;
 }
 .user-component__subtitle{
     margin-top: 8px;
-    font-weight: 600;
+    font-weight: 50;
     font-size: 17px;
     color: rgba(0, 0, 0,0.5);
 }
@@ -62,4 +62,12 @@
 }
 .screen-header__icons__relative{
     position: relative;
+}
+.user-component__phone-num{
+    display: flex;
+    align-items: end;
+}
+.user-component__icon{
+    margin-left:5px;
+    color: tomato;
 }
