@@ -29,7 +29,6 @@
     left: 55px;
 }
 .more-apps__img{
-    display: flex;
     width: 60px;
     height: 60px;
     border-radius: 10px;
@@ -50,7 +49,7 @@
 .more-apps__name{
     display: block;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .more-apps__chap{
     display: flex;
