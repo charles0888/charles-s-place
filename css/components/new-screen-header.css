@@ -1,0 +1,15 @@
+.new-screen-header{
+    margin: 10px 30px;
+    display: flex;
+    align-items: center;
+
+}
+.new-screen-header-title{
+    font-size: 25px;
+}
+.new-screen-header i:first-child{
+    margin-right: auto;
+}
+.new-screen-header i:last-child{
+    margin-left: auto;
+}

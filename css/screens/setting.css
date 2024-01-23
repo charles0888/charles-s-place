@@ -1,0 +1,31 @@
+.setting-main{
+    display: block;
+    margin: 0 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+}
+.setting-title{
+    margin-left:10px;
+}
+.setting-list{
+    padding: 20px 0px;
+    font-weight: 50;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.027);
+}
+.setting-subtitle{
+    color: rgba(0, 0, 0, 0.5);
+}
+.setting-components{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.setting-dot{
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    margin-left:5px ;
+}
