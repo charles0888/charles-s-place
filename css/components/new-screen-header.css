@@ -7,9 +7,12 @@
 .new-screen-header-title{
     font-size: 25px;
 }
-.new-screen-header i:first-child{
+.new-screen-header a:first-child{
     margin-right: auto;
 }
 .new-screen-header i:last-child{
+    margin-left: auto;
+}
+.new-screen-header span{
     margin-left: auto;
 }
