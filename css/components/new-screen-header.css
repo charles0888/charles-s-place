@@ -1,18 +1,31 @@
 .new-screen-header{
-    margin: 10px 30px;
+    padding: 10px 30px;
     display: flex;
     align-items: center;
-
+    position: fixed;
+    width: 100vw;
+    box-sizing: border-box;
+    top: 30px;
 }
 .new-screen-header-title{
     font-size: 25px;
-}
-.new-screen-header a:first-child{
-    margin-right: auto;
+    margin-left: auto;
+    width: 33%;
+    text-align: center;
 }
 .new-screen-header i:last-child{
     margin-left: auto;
 }
 .new-screen-header span{
     margin-left: auto;
+}
+.new-screen-header__margin{
+    margin-right:20px;
+}
+.new-screen-header-right{
+    width: 33%;
+    text-align: end;
+}
+.new-screen-header__back{
+    width: 33%;
 }
