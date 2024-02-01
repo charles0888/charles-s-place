@@ -6,6 +6,7 @@
     width: 100vw;
     box-sizing: border-box;
     top: 30px;
+    z-index: 1;
 }
 .new-screen-header-title{
     font-size: 25px;

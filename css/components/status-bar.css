@@ -2,9 +2,11 @@
     display: flex;
     justify-content: center;
     padding: 5px 3px;
+    padding-bottom:10px ;
     position: fixed; /*position:fixed 로 바꾸기 나중에*/
     width: 98%;
     top: 0px;
+    z-index: 1;
 }
 .status-bar__column:first-child{
     margin-right: auto;
@@ -14,4 +16,7 @@
 }
 .status-bar .fa-battery-full{
     margin:0px 5px;
+}
+.status-bar__background{
+    background-color: #ABC1D1;
 }

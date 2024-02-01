@@ -1,3 +1,55 @@
 .chatting-room__background{
     background-color: #ABC1D1;
+    height: 1000vh;
+}
+.chatting-room__time{
+    display: flex;
+    width: 180px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 50;
+    background-color: rgba(0, 0, 0, 0.164);
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.chatting-room__first{
+    display: flex;
+    justify-content: center;
+    width: 98vw;
+}
+.chatting-room__img{
+    width: 40px;
+    height: 40px;
+    border-radius: 13px;
+    padding-right:5px ;
+}
+.chatting-room__talk{
+    display: flex;
+    flex-direction:column;
+    padding-right: 5px;
+}
+.chatting-room__talking{
+    display: flex;
+    padding: 20px 15px;
+}
+.chatting-room__name{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.432);
+    padding-bottom: 8px;
+    font-weight: 600;
+}
+.chatting-room__sending-time{
+    display: flex;
+    align-items: flex-end;
+    font-size: 10px;
+    font-weight: 600;
+}
+.chatting-room__components{
+    background-color: white;
+    padding: 10px;  
+    text-align: center;
+    border-radius: 12px;
+    font-weight: 600;
 }
