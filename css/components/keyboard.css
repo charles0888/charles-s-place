@@ -1,0 +1,9 @@
+.keyboard-top{
+    background-color: white;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.keyboard-top__chatting-space{
+    border-color: white;
+}
