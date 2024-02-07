@@ -1,9 +1,51 @@
+.keyboard{
+    width: 98vw;
+    position: fixed;
+    bottom: 0;
+}
 .keyboard-top{
     background-color: white;
     display: flex;
     height: 50px;
     align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.keyboard-top__column{
+    display: flex;
+    align-items: center;
+}
+.yello__round{
+    background-color: #FEE500;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    margin-left:10px ;
+}
+.keyboard-top__column span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .keyboard-top__chatting-space{
-    border-color: white;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    width: 400px;
+    display: flex;
+}
+.keyboard-top__chatting-write{
+    background-color: rgba(0, 0, 0, 0.01);
+    border: 0;
+    width: 300px;
+}
+.keyboard-top__asdf{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 40px;
+    padding: 0 10px;
+}
+.keyboard-icon__color{
+    color: rgba(0, 0, 0, 0.4)
 }
