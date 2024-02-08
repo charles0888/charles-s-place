@@ -1,6 +1,11 @@
 .keyboard{
-    width: 98vw;
+    width: 100vw;
     position: fixed;
+    bottom: -250px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+.keyboard:hover{
     bottom: 0;
 }
 .keyboard-top{
@@ -33,11 +38,13 @@
     border-radius: 100px;
     width: 400px;
     display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.4);
 }
 .keyboard-top__chatting-write{
     background-color: rgba(0, 0, 0, 0.01);
     border: 0;
     width: 300px;
+    transition: all 0s ease-in-out;
 }
 .keyboard-top__asdf{
     display: flex;
@@ -47,5 +54,66 @@
     padding: 0 10px;
 }
 .keyboard-icon__color{
-    color: rgba(0, 0, 0, 0.4)
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.keyboard-bottom{
+    padding-top:10px ;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.keyboard-bottom__first, .keyboard-bottom__third{
+    padding: 0 3px;
+}
+
+.keyboard-bottom__second{
+    padding:0 20px;
+}
+
+.keyboard-bottom__first , .keyboard-bottom__second, .keyboard-bottom__third{
+    display: flex;
+    width: 95.5vw;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.alphabet, .keyboard-bottom__num, .keyboard-bottom__glob, .keyboard-bottom__mic, .keyboard-bottom__space{
+    background-color: white;
+    width: 40px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size:20px ;
+}
+.keyboard-bottom__num, .keyboard-bottom__glob{
+    background-color: rgba(0, 0, 0, 0.274);
+    width: 55px;
+}
+
+.keyboard-bottom__return{
+    background-color: rgba(0, 0, 0, 0.274);
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.keyboard-bottom__up, .keyboard-bottom__back{
+    width: 55px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keyboard-bottom__space{
+    width: 200px;
 }
