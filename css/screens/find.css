@@ -106,3 +106,22 @@
 .open-chat__img__heart__num{
     font-size: 15px;
 }
+
+@keyframes heartbeat {
+    0%{
+        color: black;
+        transform: none;
+    }
+    50%{
+        color:red;
+        transform: scale(1.5);
+    }
+    100%{
+        color: black;
+        transform: none;
+    }   
+}
+.open-chat__img__heart i:hover{
+    will-change: transform;
+    animation: heartbeat 1s linear infinite;
+}

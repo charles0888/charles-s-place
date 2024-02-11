@@ -1,3 +1,43 @@
+@keyframes fadein {
+    from{
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes otherfadein {
+    from{
+        transform: translateX(-10px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+@keyframes minefadein {
+    from{
+        transform: translateX(10px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+
+.chatting-room__talking{
+    animation: otherfadein 0.5s linear;
+}
+
+.chatting-room__talking__mine{
+    animation: minefadein 0.5s linear;
+}
+
 .chatting-room__background{
     background-color: #ABC1D1;
     height: 1000vh;
@@ -15,6 +55,7 @@
     align-items: center;
 }
 .chatting-room__first{
+    animation: fadein 0.5s linear;
     display: flex;
     justify-content: center;
     width: 96vw;

@@ -5,9 +5,21 @@
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
 }
-.keyboard:hover{
+.keyboard:focus-within{
     bottom: 0;
 }
+.keyboard:focus-within .fa-square-plus{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.keyboard:focus-within .keyboard-top__chatting-space{
+    width: 100vw;
+}
+.keyboard:focus-within .keyboard-top__asdf{
+    justify-content: space-between;
+}
+
 .keyboard-top{
     background-color: white;
     display: flex;
@@ -39,6 +51,7 @@
     width: 400px;
     display: flex;
     border: 1px solid rgba(0, 0, 0, 0.4);
+    transition: all 0.2s linear;
 }
 .keyboard-top__chatting-write{
     background-color: rgba(0, 0, 0, 0.01);

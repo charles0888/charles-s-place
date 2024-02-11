@@ -18,3 +18,16 @@
 .new-screen-header__color{
     background-color: #ABC1D1;
 }
+
+@keyframes gearspin {
+    from{
+        transform: rotateZ(0);
+    }
+    to{
+        transform: rotateZ(180deg);
+    }
+}
+
+.fa-gear:hover{
+    animation: gearspin 1s linear infinite;
+}
