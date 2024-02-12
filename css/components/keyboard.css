@@ -8,18 +8,12 @@
 .keyboard:focus-within{
     bottom: 0;
 }
-.keyboard:focus-within .fa-square-plus{
-    opacity: 0;
-    width: 0;
-    height: 0;
+.yello__round, .fa-face-smile{
+    transition: all 0.2s linear;
 }
-.keyboard:focus-within .keyboard-top__chatting-space{
-    width: 100vw;
+.fa-square-plus{
+    transition: all 0.1s ease-in;
 }
-.keyboard:focus-within .keyboard-top__asdf{
-    justify-content: space-between;
-}
-
 .keyboard-top{
     background-color: white;
     display: flex;
@@ -51,7 +45,7 @@
     width: 400px;
     display: flex;
     border: 1px solid rgba(0, 0, 0, 0.4);
-    transition: all 0.2s linear;
+    transition: width 0.2s linear;
 }
 .keyboard-top__chatting-write{
     background-color: rgba(0, 0, 0, 0.01);

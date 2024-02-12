@@ -11,31 +11,37 @@
 
 @keyframes otherfadein {
     from{
-        transform: translateX(-10px);
+        padding-left: 0;
+        transform: translateX(-15px);
         opacity: 0;
     }
     to{
+        padding-left: 15px;
         transform: none;
         opacity: 1;
     }
 }
 @keyframes minefadein {
     from{
-        transform: translateX(10px);
+        transform: translateX(15px);
         opacity: 0;
+        padding-right: 0;
     }
     to{
         transform: none;
         opacity: 1;
+        padding-right: 15px;
     }
 }
 
 .chatting-room__talking{
     animation: otherfadein 0.5s linear;
+    box-sizing: border-box;
 }
 
 .chatting-room__talking__mine{
     animation: minefadein 0.5s linear;
+    box-sizing: border-box;
 }
 
 .chatting-room__background{
