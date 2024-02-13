@@ -8,12 +8,6 @@
 .keyboard:focus-within{
     bottom: 0;
 }
-.yello__round, .fa-face-smile{
-    transition: all 0.2s linear;
-}
-.fa-square-plus{
-    transition: all 0.1s ease-in;
-}
 .keyboard-top{
     background-color: white;
     display: flex;
